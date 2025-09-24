@@ -1,0 +1,20 @@
+{
+  "name": "keephy_search",
+  "version": "1.0.0",
+  "description": "Keephy Search Service - Full-text search and content discovery",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=development node src/index.js",
+    "start": "node -r dotenv/config src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.6.0",
+    "pino": "^9.2.0",
+    "pino-http": "^10.3.0"
+  }
+}
